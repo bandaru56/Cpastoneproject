@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-15T14:05:56 IST" name="Default suite" finished-at="2023-11-15T14:06:09 IST" duration-ms="12953">
+  <suite started-at="2023-11-15T16:49:44 IST" name="Default suite" finished-at="2023-11-15T16:49:58 IST" duration-ms="14170">
     <groups>
     </groups>
-    <test started-at="2023-11-15T14:05:56 IST" name="Default test" finished-at="2023-11-15T14:06:09 IST" duration-ms="12953">
+    <test started-at="2023-11-15T16:49:44 IST" name="Default test" finished-at="2023-11-15T16:49:58 IST" duration-ms="14170">
       <class name="com.sportyshoe.Tests.OrderpageTest">
-        <test-method is-config="true" signature="start_browser()[pri:0, instance:com.sportyshoe.Tests.OrderpageTest@5fb759d6]" started-at="2023-11-15T14:05:56 IST" name="start_browser" finished-at="2023-11-15T14:06:09 IST" duration-ms="12813" status="FAIL">
+        <test-method is-config="true" signature="start_browser()[pri:0, instance:com.sportyshoe.Tests.OrderpageTest@5fb759d6]" started-at="2023-11-15T16:49:44 IST" name="start_browser" finished-at="2023-11-15T16:49:58 IST" duration-ms="13978" status="FAIL">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[unknown error: net::ERR_CONNECTION_REFUSED
@@ -15,9 +15,9 @@
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [999439ef403fe5ad630a330a16df79f8, get {url=http://localhost:9010/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52636}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52636/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 999439ef403fe5ad630a330a16df79f8]]>
+Command: [aa6f85f91a7a353c61ec546b85399a93, get {url=http://localhost:9010/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53997}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53997/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa6f85f91a7a353c61ec546b85399a93]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_REFUSED
@@ -25,9 +25,9 @@ Session ID: 999439ef403fe5ad630a330a16df79f8]]>
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [999439ef403fe5ad630a330a16df79f8, get {url=http://localhost:9010/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52636}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52636/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 999439ef403fe5ad630a330a16df79f8
+Command: [aa6f85f91a7a353c61ec546b85399a93, get {url=http://localhost:9010/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53997}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53997/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa6f85f91a7a353c61ec546b85399a93
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -73,7 +73,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start_browser -->
-        <test-method signature="test_login()[pri:49, instance:com.sportyshoe.Tests.OrderpageTest@5fb759d6]" started-at="2023-11-15T14:06:09 IST" name="test_login" finished-at="2023-11-15T14:06:09 IST" duration-ms="0" status="SKIP">
+        <test-method signature="test_login()[pri:49, instance:com.sportyshoe.Tests.OrderpageTest@5fb759d6]" started-at="2023-11-15T16:49:58 IST" name="test_login" finished-at="2023-11-15T16:49:58 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[unknown error: net::ERR_CONNECTION_REFUSED
@@ -81,9 +81,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [999439ef403fe5ad630a330a16df79f8, get {url=http://localhost:9010/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52636}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52636/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 999439ef403fe5ad630a330a16df79f8]]>
+Command: [aa6f85f91a7a353c61ec546b85399a93, get {url=http://localhost:9010/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53997}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53997/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa6f85f91a7a353c61ec546b85399a93]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_REFUSED
@@ -91,9 +91,9 @@ Session ID: 999439ef403fe5ad630a330a16df79f8]]>
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [999439ef403fe5ad630a330a16df79f8, get {url=http://localhost:9010/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52636}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52636/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 999439ef403fe5ad630a330a16df79f8
+Command: [aa6f85f91a7a353c61ec546b85399a93, get {url=http://localhost:9010/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53997}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53997/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa6f85f91a7a353c61ec546b85399a93
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -139,7 +139,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_login -->
-        <test-method signature="test_click_orders()[pri:50, instance:com.sportyshoe.Tests.OrderpageTest@5fb759d6]" started-at="2023-11-15T14:06:09 IST" name="test_click_orders" finished-at="2023-11-15T14:06:09 IST" duration-ms="0" status="SKIP">
+        <test-method signature="test_click_orders()[pri:50, instance:com.sportyshoe.Tests.OrderpageTest@5fb759d6]" started-at="2023-11-15T16:49:58 IST" name="test_click_orders" finished-at="2023-11-15T16:49:58 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[unknown error: net::ERR_CONNECTION_REFUSED
@@ -147,9 +147,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [999439ef403fe5ad630a330a16df79f8, get {url=http://localhost:9010/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52636}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52636/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 999439ef403fe5ad630a330a16df79f8]]>
+Command: [aa6f85f91a7a353c61ec546b85399a93, get {url=http://localhost:9010/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53997}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53997/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa6f85f91a7a353c61ec546b85399a93]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_REFUSED
@@ -157,9 +157,9 @@ Session ID: 999439ef403fe5ad630a330a16df79f8]]>
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [999439ef403fe5ad630a330a16df79f8, get {url=http://localhost:9010/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52636}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52636/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 999439ef403fe5ad630a330a16df79f8
+Command: [aa6f85f91a7a353c61ec546b85399a93, get {url=http://localhost:9010/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53997}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53997/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa6f85f91a7a353c61ec546b85399a93
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -205,7 +205,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_click_orders -->
-        <test-method signature="test_getTitle_page()[pri:51, instance:com.sportyshoe.Tests.OrderpageTest@5fb759d6]" started-at="2023-11-15T14:06:09 IST" name="test_getTitle_page" finished-at="2023-11-15T14:06:09 IST" duration-ms="0" status="SKIP">
+        <test-method signature="test_getTitle_page()[pri:51, instance:com.sportyshoe.Tests.OrderpageTest@5fb759d6]" started-at="2023-11-15T16:49:58 IST" name="test_getTitle_page" finished-at="2023-11-15T16:49:58 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[unknown error: net::ERR_CONNECTION_REFUSED
@@ -213,9 +213,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [999439ef403fe5ad630a330a16df79f8, get {url=http://localhost:9010/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52636}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52636/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 999439ef403fe5ad630a330a16df79f8]]>
+Command: [aa6f85f91a7a353c61ec546b85399a93, get {url=http://localhost:9010/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53997}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53997/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa6f85f91a7a353c61ec546b85399a93]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_REFUSED
@@ -223,9 +223,9 @@ Session ID: 999439ef403fe5ad630a330a16df79f8]]>
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [999439ef403fe5ad630a330a16df79f8, get {url=http://localhost:9010/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52636}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52636/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 999439ef403fe5ad630a330a16df79f8
+Command: [aa6f85f91a7a353c61ec546b85399a93, get {url=http://localhost:9010/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53997}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53997/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa6f85f91a7a353c61ec546b85399a93
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
